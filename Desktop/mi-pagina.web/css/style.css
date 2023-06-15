@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: beige;
+}
+
+.logo {
+    width: 130px;
+    height: 90px;
+}
+
+header {
+    background-color: aquamarine;
+    height: 90px;
+    display:flex;
+}
+
+.menu li{
+    display:inline-flex;
+    flex-direction: row;
+    justify-content: end;
+    text-align: center;
+    padding: 20px;
+
+}
+
+
+
