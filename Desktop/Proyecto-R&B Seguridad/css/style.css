@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: white;
+    /*background-color:rgb(64, 64, 64);
+    color: white;*/
+}
+
+
+/*DISEÑO DE HEADER (LOGO Y MENU)*/
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #061b30;
+    /*background-image: linear-gradient(to top, #09203f 0%, #537895 100%);*/
+}
+
+.logo > div{
+    color: #ffffff;
+    padding: 10px;
+}
+/*-------------------------------------------------------*/
+
+/*DISEÑO MENU HABURGUESA*/
+
+
+/*-----------------------------------------------*/
+
+/*ESTILOS MENU HABURGUESA*/
+
+
+/*-----------------------------------------*/
+
+
+/*DISEÑO MENU DE NAVEGACION*/
+.caja-menu{
+    width: 100%;
+    top: 70px;
+    left: 220px;
+
+}
+.nav-list li a{
+    background-color: rgb(177, 137, 36);
+    color: #fff;
+    padding: 10px 15px;
+    display:block;
+    font-size: 15px;
+}
+
+.nav-list li a:hover{
+    background-color: #000000;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.nav-list > li {
+    float:left;
+}
+
+.nav-list li ul{
+    display: none;
+    position:absolute;
+    min-width: 140px;
+}
+
+.nav-list li:hover > ul{
+    display: block;
+}
+
+.nav-list li ul li{
+    position: relative;
+}
+
+.nav-list li ul li ul {
+    right: -168px;
+    top: 0;
+}
+
+.consul ul li{
+    right: -190px;
+    top: 0;
+}
+
+.consul ul li a:hover{
+    background-color: #000000;
+}
+
+.inicio a {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.trabConNosotros a{
+    border-radius: 0px 10px 10px 0px;
+
+}
+/*-------------------------------------------*/
+
+
+/*DISEÑO DEL MAIN (SECTION, ARTICLE, h2)*/
+main{
+    padding-top: 50px;
+}
+
+section{
+    max-width:100%;
+    padding: 10px 30px;
+}
+
+#contenedor-master{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedor-main p{
+    font-size: 50px;
+}
+
+.f-bold {
+    font-weight: bold;
+}
+
+#contenedor-master p{
+    font-size: 20px;
+}
+
+.contenedor-logo img{
+    width: 150px;
+    padding-right:40px;
+}
+
+.importa{
+    width: 100%;
+    background-color: #000000;
+    margin-top: 20px;
+}
+
+.importa img{
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+}
+
+.contacto{
+    background-color: #000000;
+    color:#ffffff;
+    width: 50%;
+    height: 300px;
+    margin: 0 auto;
+}
+/*--------------------------------------------*/
+
+/*DISEÑO DEL FOOTER*/
+footer {
+    background-color: #061b30;
+    margin-top: 100px;
+    padding: 30px;
+    color: white
+}
+
+footer{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.icono-social{
+    display: flex;
+}
+
+.icono-social img{
+    width: 80px;
+    padding-left: 30px;
+}
+
+/*main .importa{
+    background-color: #000000;
+    padding-top: 0px;
+    margin-top: 20px;
+}
+
+.importa img{
+    width: 700px;
+    height: 250px;
+    border: none;
+    margin: none;
+}*/
+
+@media (max-width: 768px){
+
+
+}
+
+
+
